@@ -1,0 +1,5 @@
+pip install -r requirements.txt
+ollama pull phi3
+ollama serve
+streamlit run ui/streamlit_app.py
+python app.py
