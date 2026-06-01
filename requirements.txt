@@ -14,5 +14,9 @@ streamlit>=1.32.0
 # Audio format support (MP3, M4A decoding for Whisper)
 ffmpeg-python>=0.2.0
 
+# ── NEW: Webcam posture analysis ──────────────────────────────────────────
+mediapipe>=0.10.9
+opencv-python-headless>=4.9.0   # headless = no GUI window needed (Streamlit handles display)
+
 # Utilities (already stdlib, listed for clarity)
-# pathlib, json, wave, tempfile, argparse, urllib — all built-in
+# pathlib, json, wave, tempfile, argparse, urllib, sqlite3 — all built-in
